@@ -1,0 +1,30 @@
+## SERVER configuration
+CONTEXT_PATH=dummy-serivce/
+HOST=localhost
+PORT=8080
+
+## DATABASE configuration
+
+DB_URL=mongodb://localhost:27017/
+DB_HOST=localhost
+DB_PORT=27017
+DB_USER=
+DB_PWD=
+DB_DATABASE=
+
+## HTTP/HTTPS
+SSL=false
+PROTOCOL=http
+KEY=
+CERT=
+
+# winston logging level
+LOGGING_LEVEL=debug
+LOG_FILE=info.log
+
+# Winston Log levels
+ERROR=error
+WARN =warn
+INFO=info
+VERBOSE=verbose
+DEBUG=debug

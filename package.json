@@ -1,0 +1,24 @@
+{
+  "name": "clean-code-architecture-starter",
+  "version": "1.1.5",
+  // "description": "This is officially designed to install templates based on latest web technology!",
+  "description": "Starter files for backend development with Express.js using clean code architectural pattern",
+  "main": "bin/clean-code-architecture.js",
+  "scripts": {
+    "cleanCode-starter": "cleanCode-starter"
+  },
+  "bin": {
+    "cleanCode-starter": "./bin/clean-code-architecture.js"
+  },
+  "dependencies": {
+    "@types/ncp": "^2.0.8",
+    "@types/node": "^20.12.8",
+    "clean-code-architecture-starter": "^1.1.0"
+  },
+  "keywords": [
+    "typescript",
+    "clean-code"
+  ],
+  "author": "Hritik Dubey",
+  "license": "ISC"
+}
